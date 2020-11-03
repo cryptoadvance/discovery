@@ -1,0 +1,10 @@
+date,file,sheet,ref_designator,action (del/add/qty/pn),desc,comments,status
+2020-11-01,extensionConnector.schdoc,3,CN12,del,external connector,not needed,complete
+2020-11-01,Power.schdoc,4,JP1,del,"ground bus, 2p header",not needed,complete
+2020-11-01,Power.schdoc,4,"JP5, SB8",del,don’t need or want to have Idd measurement,not needed,complete
+2020-11-01,Power.schdoc,4,"U8, C32",del,1.8V supply for audio out,"not needed, no audio out",complete
+2020-11-01,Peripherals.schdoc,5,"B1, SB1, C3, R6",del,delete RESET button (B1),"not needed – just unplug / plug back in. Prevents unintended shutoff, too",complete
+2020-11-01,Peripherals.schdoc,5,"B2, C4, R10, R18, R19",del,delete WAKEUP button (B2),user button not needed. We use touchscreen,complete
+2020-11-01,Peripherals.schdoc,5,CN11,del,delete EXT/RF E2P connector,No desire for external reset over I2C,complete
+2020-11-01,ST_LINK_V2-1.schdoc,12,"U3, U4, U9, CN1",del,delete all major components for ST-Link,preserve minimum nets + connector for SWD. Need to figure out the desired connector for SWD interface,partial
+2020-11-01,AUDIO2.schdoc,6,"U1, U5, U6",del,delete all audio except U2,keep 1x MEMS microphone for entropy signal,complete
