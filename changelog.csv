@@ -8,3 +8,8 @@ date,file,sheet,ref_designator,action (del/add/qty/pn),desc,comments,status
 2020-11-01,Peripherals.schdoc,5,CN11,del,delete EXT/RF E2P connector,No desire for external reset over I2C,complete
 2020-11-01,ST_LINK_V2-1.schdoc,12,"U3, U4, U9, CN1",del,delete all major components for ST-Link,preserve minimum nets + connector for SWD. Need to figure out the desired connector for SWD interface,partial
 2020-11-01,AUDIO2.schdoc,6,"U1, U5, U6",del,delete all audio except U2,keep 1x MEMS microphone for entropy signal,complete
+2020-11-01,Power.schdoc,4,U10,pn,swap linear reg for buck AP63205WU-7,,complete
+2020-11-01,Power.schdoc,4,U7,pn,swap linear reg for buck AP63203WU-7,,complete
+2020-11-03,Power.schdoc,4,"C101, C102, L5, L6",add,needed for AP63203WU-7,still missing Cout 2x22uF (must update by adding C103-C106),partial
+2020-11-03,bom.csv,,"C101, C102, L5, L6, U10, U7, C103, C104, C105, C106",add,add PMIC power components to BOM,"change U7, U10 to AP6320xWU-7",complete
+2020-11-03,bom.csv,,"CN5, CN7, CN8",add,keep/restore arduino connectors,arduino header connectors are needed for compatibility with Specter QR scanner shield,complete
