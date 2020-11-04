@@ -13,3 +13,4 @@ date,file,sheet,ref_designator,action (del/add/qty/pn),desc,comments,status
 2020-11-03,Power.schdoc,4,"C101, C102, L5, L6",add,needed for AP63203WU-7,still missing Cout 2x22uF (must update by adding C103-C106),partial
 2020-11-03,bom.csv,,"C101, C102, L5, L6, U10, U7, C103, C104, C105, C106",add,add PMIC power components to BOM,"change U7, U10 to AP6320xWU-7",complete
 2020-11-03,bom.csv,,"CN5, CN7, CN8",add,keep/restore arduino connectors,arduino header connectors are needed for compatibility with Specter QR scanner shield,complete
+2020-11-04,bom.csv,,U11,pn,select new P/N for BGA package: IS42S32400F-7BL,Desired BGA vs.  TSOP for layout and form factor constraints,complete
