@@ -15,3 +15,4 @@ date,file,sheet,ref_designator,action (del/add/qty/pn),desc,comments,status
 2020-11-03,bom.csv,,"CN5, CN7, CN8",add,keep/restore arduino connectors,arduino header connectors are needed for compatibility with Specter QR scanner shield,complete
 2020-11-04,bom.csv,,U11,pn,select new P/N for BGA package: IS42S32400F-7BL,Desired BGA vs.  TSOP for layout and form factor constraints,complete
 2020-11-08,bom.csv,,ZZ1,pn,"Update P/N to FRD400B25014-H-CT by Shenzhen Frida LCD Co., Ltd.",Unable to find KJD KM-040TMP-02-A on internet. Desired part is FRD400B25014-H-CT (looks like a new version of FRD397B25009-D-CTK),complete
+2020-11-12,bom.csv,,MISC,pn,"Added columns to BOM for: life-cycle, inventory check, and cross reference required ",narrowing down on parts we think are good vs. What may be hard to find in production,complete
