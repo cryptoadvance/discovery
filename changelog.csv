@@ -16,4 +16,11 @@ date,file,sheet,ref_designator,action (del/add/qty/pn),desc,comments,status
 2020-11-04,bom.csv,,U11,pn,select new P/N for BGA package: IS42S32400F-7BL,Desired BGA vs.  TSOP for layout and form factor constraints,complete
 2020-11-08,bom.csv,,ZZ1,pn,"Update P/N to FRD400B25014-H-CT by Shenzhen Frida LCD Co., Ltd.",Unable to find KJD KM-040TMP-02-A on internet. Desired part is FRD400B25014-H-CT (looks like a new version of FRD397B25009-D-CTK),complete
 2020-11-12,bom.csv,,MISC,pn,"Added columns to BOM for: life-cycle, inventory check, and cross reference required ",narrowing down on parts we think are good vs. What may be hard to find in production,complete
-2020-11-016,bom.csv,,CN9,pn,"Updated to newer Yamaichi P/N, also added option for HiRose DM3BT-DSF-PEJS","examine HiRose foortprint, maybe change to primary P/N",complete
+2020-11-16,bom.csv,,CN9,pn,"Updated to newer Yamaichi P/N, also added option for HiRose DM3BT-DSF-PEJS","examine HiRose foortprint, maybe change to primary P/N",complete
+2020-11-29,bom.csv,,X2,pn,change from NX3225GD-8.00M to ECS-80-12-33-JGN-TR,"Beware 4-pin configuration (pins 2,4 = GND), may be different than old P/N",complete
+2020-12-06,bom.csv,,"L1, L2, L3",pn,Replaced old P/N FCM1608KF-601T03 to TDK MPZ1608S102ATA00,specs of old part were not really known.,complete
+2020-12-06,bom.csv,,D5,pn,change from ST  EMIF02-USB03F2 to TI TPD3E001DRLR,"Avoiding the small BGA package, using SOT-553 instead. RC network should be added to BOM and schematic",partial
+2020-12-06,bom.csv,,T3,pn,change from to Diodes Inc MMBT3904-7-F,lack of availability and technical info required the switch,complete
+2020-12-06,bom.csv,,U2,pn,ST MEMS microphone MP34DT01TR change to MP34DT05TR-A,lack of availability on old P/N,complete
+2020-12-06,bom.csv,,X3,pn,change X3 32.768k  oscillator P/N NX3215SA-32.768K for ABS07-32.768KHZ-6-4-T,part not well defined –> changed,complete
+2020-12-06,bom.csv,,U12,pn,Change obsolete QSPI flash for Cypress S25FL128LAGMFI013,Be sure to design layout to accommodate both packages (combined footprint 8-SOIC AND 8-WSON 5x6mm),complete
