@@ -24,3 +24,9 @@ date,file,sheet,ref_designator,action (del/add/qty/pn),desc,comments,status
 2020-12-06,bom.csv,,U2,pn,ST MEMS microphone MP34DT01TR change to MP34DT05TR-A,lack of availability on old P/N,complete
 2020-12-06,bom.csv,,X3,pn,change X3 32.768k  oscillator P/N NX3215SA-32.768K for ABS07-32.768KHZ-6-4-T,part not well defined –> changed,complete
 2020-12-06,bom.csv,,U12,pn,Change obsolete QSPI flash for Cypress S25FL128LAGMFI013,Be sure to design layout to accommodate both packages (combined footprint 8-SOIC AND 8-WSON 5x6mm),complete
+2021-01-02,USB_OTG_FS.SchDoc,10,"R159, R160",add,"replace 0ohm R159, R160 with 27ohm",part of RC filter (27ohm / 47pF) for USB OTG signal lines,complete
+2021-01-02,USB_OTG_FS.SchDoc,10,"C107, C108",add,"Add (2) C107, C108 47 pF 100V 0603",part of RC filter (27ohm / 47pF) for USB OTG signal lines,complete
+2020-01-03,Power.schdoc,4,C36,pn,replace old Vishay TR3B106M025C1100 b/c low availability,"Replaced w/ AVX F931E106MBA. Similar specs: 10%, 25V, 1.9ohm ESR (vs 1.1ohm OLD)",complete
+2020-01-03,MCU.schdoc,2,"C83, C85",pn,"New X2 requires 12pF load cap, so changing old (2) x 8pF C0603C829C5GACTU for new P/N",New P/N = 6.2 pF C0603C629C5GAC7867. Unsure if the value is acceptable if not exactly 6pF/cap?,complete
+2020-01-03,MCU.schdoc,2,"X2, X3",pn,updated schematic model(s) only. BOM already updated,,complete
+2020-01-03,Memory.schdoc,8,U11,pn,updated schematic model(s) only. BOM already updated,,complete
